@@ -3,6 +3,7 @@
 #include "ClippingStage.hpp"
 #include "../shared/VariableOversampling.hpp"
 #include "../shared/shelf_filter.hpp"
+#include <array>
 
 struct ChowDer : Module {
     enum ParamIds {
